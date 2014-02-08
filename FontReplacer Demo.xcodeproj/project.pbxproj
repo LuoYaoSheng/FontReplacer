@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35BF095918A631170048FDB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BF095818A631170048FDB1 /* Default-568h@2x.png */; };
 		DA336B6B13F01F5D00A60EA6 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA336B6A13F01F5D00A60EA6 /* DemoViewController.xib */; };
 		DA4C182113F446120015A600 /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4C181F13F446110015A600 /* FontsViewController.m */; };
 		DA4C182813F4506A0015A600 /* ComparatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4C182613F450680015A600 /* ComparatorViewController.m */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35BF095818A631170048FDB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DA336B6A13F01F5D00A60EA6 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		DA4C181E13F446110015A600 /* FontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontsViewController.h; sourceTree = "<group>"; };
 		DA4C181F13F446110015A600 /* FontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontsViewController.m; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		DA9861EF13F01BCD006DEC9A = {
 			isa = PBXGroup;
 			children = (
+				35BF095818A631170048FDB1 /* Default-568h@2x.png */,
 				DA98621913F01E55006DEC9A /* UIFont+Replacement */,
 				DA98620213F01BCE006DEC9A /* FontReplacer Demo */,
 				DA9861FD13F01BCE006DEC9A /* Frameworks */,
@@ -193,6 +196,7 @@
 				DA6C855813F02703007060AF /* CaviarDreams_Bold.ttf in Resources */,
 				DA6C855913F02703007060AF /* CaviarDreams_BoldItalic.ttf in Resources */,
 				DA6C855A13F02703007060AF /* CaviarDreams_Italic.ttf in Resources */,
+				35BF095918A631170048FDB1 /* Default-568h@2x.png in Resources */,
 				DA6C856513F035EA007060AF /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontReplacer Demo/FontReplacer Demo-Prefix.pch";
 				INFOPLIST_FILE = "FontReplacer Demo/FontReplacer Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontReplacer Demo/FontReplacer Demo-Prefix.pch";
 				INFOPLIST_FILE = "FontReplacer Demo/FontReplacer Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
